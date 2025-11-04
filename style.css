@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    font-family: "DM Sans";
+}
+/* Logo */
+#logo{
+    padding: 50px;
+    float: left;
+}
+/* Head of the site */
+header{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(Assets/image-header.png);
+}
+.navigator{
+    padding: 50px;
+    text-align: right;
+    margin-right: 20px;
+    li{
+        font-family: 'Poppins';
+        font-style: 'Regular';
+        font-size: 18px;
+        display: inline;
+        padding: 15px;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+span{
+    margin: 0;
+    font-family: "DM Sans";
+    font-style: 'regular';
+    font-size: 53px;
+    color: white;
+    padding-right: 580px;
+}
+h1{
+    text-align: center;
+    font-style: 'regular';
+    font-size: 160px;
+    color: white;
+
+    span {
+        margin: 0;
+        font-family: "DM Sans";
+        font-style: 'regular';
+        font-size: 53px;
+        color: white;
+        padding-right: 580px;
+    }
+    
+}
+header{
+    h2{
+         text-align: center;
+        color: white;
+    }
+   
+}
+
+.imageSection img {
+  width: 100%;
+}
