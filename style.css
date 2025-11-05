@@ -33,6 +33,7 @@ header{
     }
 }
 h1{
+    font-weight: 400;
     text-align: center;
     font-style: 'regular';
     font-size: 140px;
@@ -51,7 +52,7 @@ h1{
 }
 header{
     h2{
-        margin-left: 350px;
+        margin-left: 370px;
         padding: 25px;
         text-align: left;
         color: white;
@@ -63,7 +64,7 @@ header{
     text-align: center;
 }
 .buttons{
-    margin-right: 150px;
+    margin-right: 120px;
     a{
         text-decoration: none;
         border-radius: 10px;
@@ -113,11 +114,93 @@ main{
     }
     ul{
         margin-top: 20px;
-        padding-left: 270px;
         font-size: 28px;
+        margin-left: 100px;
+        padding-right: 100px;
+        margin-bottom: 70px;
     }
     li{
-        border-top: dashed;
+        list-style: none;
+        border-top: dotted rgba(255, 255, 255, 0.34);
+        margin-left: 180px;
+        margin-right: 180px;
+    }
+    li:last-child{
+        border-bottom: dotted rgba(255, 255, 255, 0.34);
+    }
+    a{
+        background-color: white;
+        color: black;
+        margin-left: 520px;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-radius: 10px;
     }
 }
-
+/* Body: Sponsors */
+#sponsors{
+    background-image: url(Assets/banniere-logo.png);
+    padding-bottom: 120px;
+    padding-top: 120px;
+    text-align: center;
+    a{
+        margin-top: 20px;
+        margin: 20px;
+    }
+}
+/* Body: Contact form */
+#contact{
+    text-align: center;
+    p{
+        margin-left: 300px;
+        text-align: left;
+        padding: 40px;
+    }
+}
+.form1{
+    label{
+        text-align: left;
+        padding-left: 345px;
+        display: block;
+    }
+    textarea{
+        width: 45%;
+        height: 150px;
+    }
+    input{
+        width: 45%;
+    }
+}
+#Message{
+    height: 100px;
+    width: 200px;
+}
+/* Footer: Copyrights */
+footer{
+    form{
+        float: right;
+    }
+}
+#formspace{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#copyr{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#copyr p:first-child{
+    color: black;
+    float: left;
+    text-align: left;
+    margin-left: 20px;
+}
+#copyr p:last-child{
+    color: #000;
+    text-align: right;
+    margin-right: 20px;
+}

@@ -80,30 +80,21 @@
                 LINE UP
             </h2>
             <ul>
-                
                 <li><strong>04 MAI</strong> - OMAH LAY</li>
-                
                 <li><strong>04 MAI</strong> - WIZKID</li>
-                
                 <li><strong>04 MAI</strong> - LIL BABY</li>
-                
                 <li><strong>04 MAI</strong> - BURNA BOY</li>
-                
                 <li><strong>05 MAI</strong> - KPOIN</li>
-                
                 <li><strong>05 MAI</strong> - A.C</li>
-                
                 <li><strong>05 MAI</strong> - KEKRA</li>
-                
                 <li><strong>05 MAI</strong> - THEODORA</li>
-                <li></li>
             </ul>
             <a href="">BILLETTERIE</a>
         </section>
         <!-- Section: H2, 8 UNordered list, Button(<a>)-->
 
         <!-- Section: Sponsors (a*5 with img inside) -->
-        <section>
+        <section id="sponsors">
             <a href=""><img src="Assets/spotify.png" alt="Spotify logo"></a>
             <a href=""><img src="Assets/applemusic.png" alt="Apple Music logo"></a>
             <a href=""><img src="Assets/uber.png" alt="Uber logo"></a>
@@ -113,30 +104,30 @@
         <!-- Section: Sponsors (a*5 with img inside) -->
 
         <!-- Section: H2, p, (form: label, input, textarea, button) -->
-        <section>
+        <section id="contact">
             <h2>
                 CONTACTEZ NOUS
             </h2>
             <p>
-                Fill out the booking form below to ask any questions, or reach out to us directly at
+                Fill out the booking form below to ask any questions, or reach out to us directly at <br>
                 <a href="">help@raptureclouds.com</a> with any questions or concerns. 
             </p>
-            <form action="type">
+            <form action="type" class="form1">
                 <div>
                     <label for="fullname">Full Name</label>
-                    <input type="text" name="fullname">
+                    <input type="text" name="fullname" placeholder="Full Name">
                 </div>
                 <div>
                     <label for="phone">Phone</label>
-                    <input type="text" name="phone">
+                    <input type="text" name="phone" placeholder="Phone">
                 </div>
                 <div>
                     <label for="email">Email</label>
-                    <input type="text" name="email">
+                    <input type="text" name="email" placeholder="Email">
                 </div>    
                 <div>
                     <label for="message">Message</label>
-                    <textarea name="message" id=""></textarea>
+                    <textarea name="message"></textarea>
                 </div>       
             </form>
             <button><a href="">CONTACT</a></button>
@@ -145,17 +136,20 @@
 
         <!-- Footer: p, a, (form: label, input, button) Section: Copyright -->
          <footer>
-            <p>
-                Email
-            </p>
-            <a href="">help@raptureclouds.com</a>
+            <section id="formspace"> 
+                <p>
+                    Email
+                </p>
+                <a href="">help@raptureclouds.com</a>
 
-            <form action="type">
-                <label for="newsletter">News Letter</label>
-                <input type="text" name="newsletter">
-                <button>SUBSCRIBE</button>
-            </form>
-            <section>
+                <form action="type">
+                    <p>News Letter</p>
+                    <label for="newsletter"></label>
+                    <input type="text" name="newsletter">
+                    <button>SUBSCRIBE</button>
+                </form>
+            </section>
+            <section id="copyr">
                 <p>Copyright © 2025 • Rapture - Music Festival</p>
                 <p>Terms & Conditions for Event • Privacy Policy • Terms of Use</p>
             </section>
