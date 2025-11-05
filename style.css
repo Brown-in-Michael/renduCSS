@@ -185,8 +185,7 @@ footer{
     }
 }
 #formspace{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px;
 }
 #copyr{
     background-color: white;
